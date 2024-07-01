@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora Moderna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display">
+        <div class="button">
+            <button type="button" onclick="" >%</button>
+            <button type="button" >CE</button>
+            <button type="button" onclick="limparDisplay()">C</button>
+            <button type="button" onclick="sinalOperacao('/')">÷</button>
+            <button type="button" onclick="adicionarNumero('7')">7</button>
+            <button type="button" onclick="adicionarNumero('8')">8</button>
+            <button type="button" onclick="adicionarNumero('9')">9</button>
+            <button type="button" onclick="sinalOperacao('*')">x</button>
+            <button type="button" onclick="adicionarNumero('4')">4</button>
+            <button type="button" onclick="adicionarNumero('5')">5</button>
+            <button type="button" onclick="adicionarNumero('6')">6</button>
+            <button type="button" onclick="sinalOperacao('-')">-</button>
+            <button type="button" onclick="adicionarNumero('1')">1</button>
+            <button type="button" onclick="adicionarNumero('2')" >2</button>
+            <button type="button" onclick="adicionarNumero('3')">3</button>
+            <button type="button" onclick="sinalOperacao('+')">+</button>
+            <button type="button" >+/-</button>
+            <button type="button" onclick="adicionarNumero(0)">0</button>
+            <button type="button" >.</button>
+            <button type="button" class="igual" onclick="calcular()" >=</button>
+
+        </div>
+    </div>
+</body>
+</html>
